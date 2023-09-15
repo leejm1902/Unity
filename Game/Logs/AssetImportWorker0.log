@@ -15,7 +15,7 @@ C:/Users/user/Desktop/Unity/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9864
+7884
 Successfully changed project path to: C:/Users/user/Desktop/Unity/Game
 C:/Users/user/Desktop/Unity/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/user/Desktop/Unity/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26560] Host "[IP] 192.168.123.106 [Port] 0 [Flags] 2 [Guid] 1249119593 [EditorId] 1249119593 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2DHHRMD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9944] Host "[IP] 192.168.123.106 [Port] 0 [Flags] 2 [Guid] 2166783907 [EditorId] 2166783907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2DHHRMD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26560] Host "[IP] 192.168.123.106 [Port] 0 [Flags] 2 [Guid] 1249119593 [EditorId] 1249119593 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2DHHRMD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9944] Host "[IP] 192.168.123.106 [Port] 0 [Flags] 2 [Guid] 2166783907 [EditorId] 2166783907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2DHHRMD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 48.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007969 seconds.
+Registered in 0.006417 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  0.440 seconds
 Domain Reload Profiling:
-	ReloadAssembly (569ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (440ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (372ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (270ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (75ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (198ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005564 seconds.
+Registered in 0.004791 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
+- Completed reload, in  1.027 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1229ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (1013ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (10ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
+			SetupTypeCache (212ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (607ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (548ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (522ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (46.6 KB). Loaded Objects now: 3563.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.7 KB). Loaded Objects now: 3565.
 Memory consumption went from 127.4 MB to 127.4 MB.
-Total: 3.061200 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.780600 ms  DeleteObjects: 0.056300 ms)
+Total: 2.051800 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.786700 ms  DeleteObjects: 0.081000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,135 +168,132 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14232.005913 seconds.
-  path: Assets/Light
-  artifactKey: Guid(520d3a6b392bc194fbf7fcb212220d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 17827.240439 seconds.
+  path: Assets/File Management
+  artifactKey: Guid(f5a2321af60a6a14b850376dbb8fbaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light using Guid(520d3a6b392bc194fbf7fcb212220d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcda92b8de137795bf6778875b5ed786') in 0.006782 seconds 
+Start importing Assets/File Management using Guid(f5a2321af60a6a14b850376dbb8fbaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a32f231c75a60c47108aa8e08121df') in 0.005283 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.717374 seconds.
-  path: Assets/Light/Scenes
-  artifactKey: Guid(ddd6aee949dbde346ae12f9e8dfd9b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 28.365782 seconds.
+  path: Assets/File Management/Scenes
+  artifactKey: Guid(844e91ed5dd3f264191bb62b06bd4893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Scenes using Guid(ddd6aee949dbde346ae12f9e8dfd9b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db81fa26fc8a3211eb528d568c521c3') in 0.003081 seconds 
+Start importing Assets/File Management/Scenes using Guid(844e91ed5dd3f264191bb62b06bd4893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6972af530dc771584c8a20bac834fba4') in 0.001910 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.029788 seconds.
-  path: Assets/Light/Scripts
-  artifactKey: Guid(a7d1cf4a5499fee4d9ca42b8c91edc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 14.020582 seconds.
+  path: Assets/File Management/Scenes/File Management Scene.unity
+  artifactKey: Guid(4fff2f72b6305cd4b9526a8b47b02495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Scripts using Guid(a7d1cf4a5499fee4d9ca42b8c91edc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daabbe787314d26e32200ed82456b6be') in 0.002170 seconds 
+Start importing Assets/File Management/Scenes/File Management Scene.unity using Guid(4fff2f72b6305cd4b9526a8b47b02495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dd311121b592b91ce18081f59de2ed') in 0.001877 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 9.285373 seconds.
-  path: Assets/Light/Scenes/Light Scene.unity
-  artifactKey: Guid(10f8ec8df38a56f41afeb55c6b54b637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 9.364358 seconds.
+  path: Assets/File Management/Scripts
+  artifactKey: Guid(5c40332a5a8822b4e8aeac7c9cecd291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Scenes/Light Scene.unity using Guid(10f8ec8df38a56f41afeb55c6b54b637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb273e4ae68aa1a2e6eb4c828fa18e1') in 0.002529 seconds 
+Start importing Assets/File Management/Scripts using Guid(5c40332a5a8822b4e8aeac7c9cecd291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3baaf18186d40b0cb66d912e48564e2') in 0.001984 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004424 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1197ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (934ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (587ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (505ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3566.
-Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 1.575300 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.365400 ms  DeleteObjects: 0.012800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 259.995603 seconds.
+  path: Assets/File Management/Catgear Games
+  artifactKey: Guid(bc8c40b24a275294b9c504df9f7c91e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games using Guid(bc8c40b24a275294b9c504df9f7c91e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f96b682acbd51f2b57b898fbe4c6f1') in 0.002159 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 206.298493 seconds.
-  path: Assets/Light/Texture/House.png
-  artifactKey: Guid(37dfde35cb361bc47963fe5e19dd2146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.358535 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1
+  artifactKey: Guid(f14ad30697494294bb854eecdbcbbdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Texture/House.png using Guid(37dfde35cb361bc47963fe5e19dd2146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91384dad939b5a9f23914811d0b699a4') in 0.117330 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/File Management/Catgear Games/Model Pack 1 using Guid(f14ad30697494294bb854eecdbcbbdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfce32ea69f4bb60c1327281b1230aa') in 0.001984 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Light/Texture/Robot.psd
-  artifactKey: Guid(857079c0896f73844a0f16acdde013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 44.457619 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Chili
+  artifactKey: Guid(92059e520cd224dcbbe7a80843775c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Texture/Robot.psd using Guid(857079c0896f73844a0f16acdde013f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462bafacb1e9258a24681a44034a736') in 0.020209 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Chili using Guid(92059e520cd224dcbbe7a80843775c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aa06a37c79e9a89b2907a061964087') in 0.002352 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078719 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Chili/01_Chili_Attack.fbx
+  artifactKey: Guid(f494513d99f194dbf91c449ca35c98c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Chili/01_Chili_Attack.fbx using Guid(f494513d99f194dbf91c449ca35c98c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ca0effd2d87154ff9e29d60995fadb') in 0.128747 seconds 
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Chili/04_Chili_Damaged.fbx
+  artifactKey: Guid(ae19d7808f4e04ced914150e0658b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Chili/04_Chili_Damaged.fbx using Guid(ae19d7808f4e04ced914150e0658b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0735d6038c960e259a1e522723b75362') in 0.013797 seconds 
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Light/Texture/Street Lamp.png
-  artifactKey: Guid(a66f9ae8fbac2f74eb79d074a8f8c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/File Management/Catgear Games/Model Pack 1/Chili/03_Chili_Walk_2 .fbx
+  artifactKey: Guid(60c165d3a75334f0da44e4483cf1b7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Texture/Street Lamp.png using Guid(a66f9ae8fbac2f74eb79d074a8f8c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aecf3f27e48bd058ebb21583bea2bfc') in 0.014564 seconds 
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Chili/03_Chili_Walk_2 .fbx using Guid(60c165d3a75334f0da44e4483cf1b7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b84dbf5fc6054f1352ef7911234b94a') in 0.015958 seconds 
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Chili/Chili_diffuse_new.jpg
+  artifactKey: Guid(f39a3487a492f4a2ba0c880bb03e2dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Chili/Chili_diffuse_new.jpg using Guid(f39a3487a492f4a2ba0c880bb03e2dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5c1845c8a52e43ee7c0b0b96eb9975') in 0.048861 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.677467 seconds.
-  path: Assets/Light/Model/House.FBX
-  artifactKey: Guid(318351b249902a44ea6748a84674a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 29.507995 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Eggy/02_Eggy_Attack.fbx
+  artifactKey: Guid(72f513806965d445fa6ec4e6fae20d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Model/House.FBX using Guid(318351b249902a44ea6748a84674a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4150760aade16e82732a24fe48d2df93') in 0.067151 seconds 
-Number of asset objects unloaded after import = 9
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Eggy/02_Eggy_Attack.fbx using Guid(72f513806965d445fa6ec4e6fae20d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2dcb3b55a49c1bf8f10713bdd30e75') in 0.013181 seconds 
+Number of asset objects unloaded after import = 75
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Light/Model/Street Lamp.fbx
-  artifactKey: Guid(103876eacf3ef1644942b9a8c23b7e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000014 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Eggy/05_Eggy_Death.fbx
+  artifactKey: Guid(13587287f967040ba86055414f277bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Light/Model/Street Lamp.fbx using Guid(103876eacf3ef1644942b9a8c23b7e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3180523be7c14a020d9e538407c6104f') in 0.012429 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Eggy/05_Eggy_Death.fbx using Guid(13587287f967040ba86055414f277bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7520fa3ba3853c64c0b0edb35f1a205e') in 0.014644 seconds 
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 2.565304 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Kiwi/02_Kiwi_Walk.fbx
+  artifactKey: Guid(ba506794bdf5d450d83396020368e1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Kiwi/02_Kiwi_Walk.fbx using Guid(ba506794bdf5d450d83396020368e1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cef72f744b0806321bf09fa7d4c56b') in 0.012908 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Kiwi/Kiwi_diffuse_new.jpg
+  artifactKey: Guid(4384b0a6703134debadf9d98b87124d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Kiwi/Kiwi_diffuse_new.jpg using Guid(4384b0a6703134debadf9d98b87124d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8963c51a262573c2c6729fdde1106151') in 0.011073 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.121492 seconds.
+  path: Assets/File Management/Catgear Games/Model Pack 1/Langsat/02_Langsat_Attack.fbx
+  artifactKey: Guid(e84e301c290664629899e09353ee57b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/File Management/Catgear Games/Model Pack 1/Langsat/02_Langsat_Attack.fbx using Guid(e84e301c290664629899e09353ee57b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e50ed751d23d99a02477de8badaef6') in 0.039116 seconds 
+Number of asset objects unloaded after import = 111
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
