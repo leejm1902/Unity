@@ -349,6 +349,8 @@
 "Assets/Animation Retargeting/Scripts/Skeleton.cs"
 "Assets/File Management/Scripts/BronzeUnit.cs"
 "Assets/File Management/Scripts/CSVReader.cs"
+"Assets/File Management/Scripts/MovementScene.cs"
+"Assets/File Management/Scripts/SelectManager.cs"
 "Assets/File Management/Scripts/Unit.cs"
 "Assets/File Management/Scripts/UnitManager.cs"
 "Assets/Instance/Scripts/Monster.cs"
