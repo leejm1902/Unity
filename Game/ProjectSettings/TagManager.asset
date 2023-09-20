@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pillar
   - Billiard Ball
+  - Collision
   layers:
   - Default
   - TransparentFX

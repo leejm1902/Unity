@@ -361,6 +361,8 @@
 "Assets/NavMesh Agent/Scripts/Zonbie.cs"
 "Assets/Physics/Scripts/BilliardBall.cs"
 "Assets/Physics/Scripts/PhysicsManager.cs"
+"Assets/Rotation/Scripts/Observe.cs"
+"Assets/Rotation/Scripts/Revolution.cs"
 "Assets/Supercyan Character Pack Zombie Sample/Scripts/ZombieCameraLogic.cs"
 "Assets/Supercyan Character Pack Zombie Sample/Scripts/ZombieCharacterControl.cs"
 "Assets/Supercyan Character Pack Zombie Sample/Scripts/ZombieFree.cs"

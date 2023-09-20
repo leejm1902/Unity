@@ -4,30 +4,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private Vector3 direction;
+    [SerializeField] float speed = 1.0f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        direction.x = Input.GetAxisRaw("Horizontal");
+        direction.z = Input.GetAxisRaw("Vertical");
+
+        direction.Normalize();
+
+        transform.Translate(direction * speed * Time.deltaTime);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("面倒");
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        Debug.Log("面倒 吝");
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        Debug.Log("面倒 场");
-    }
+  
 }
