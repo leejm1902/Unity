@@ -7,6 +7,8 @@ TagManager:
   - Pillar
   - Billiard Ball
   - Collision
+  - MyUnit
+  - EnemyUnit
   layers:
   - Default
   - TransparentFX
