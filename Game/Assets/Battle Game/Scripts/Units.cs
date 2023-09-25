@@ -13,6 +13,7 @@ public enum State
 
 public abstract class Units : MonoBehaviour
 {
+    protected float maxHP;
     protected float health;
     protected float attack;
     protected float speed;
@@ -20,7 +21,7 @@ public abstract class Units : MonoBehaviour
     protected Collider target;
     protected Animator animator;
 
-    protected State state;
+    public State state;
 
     private void Awake()
     {
@@ -42,6 +43,7 @@ public abstract class Units : MonoBehaviour
 
     protected virtual void Run()
     {
+        speed = 1.0f;
         animator.SetBool("Attack", false);
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
@@ -58,13 +60,5 @@ public abstract class Units : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void Hit(float damage)
-    {
-        health -= damage;
-
-        if(health <= 0)
-        {
-            state = State.DIE;
-        }
-    }
+    public abstract void Hit(float damage);
 }

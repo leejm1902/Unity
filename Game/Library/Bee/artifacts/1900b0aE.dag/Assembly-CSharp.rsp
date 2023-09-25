@@ -354,6 +354,7 @@
 "Assets/Battle Game/Kawaii Slimes/Scripts/AI/Face.cs"
 "Assets/Battle Game/Kawaii Slimes/Scripts/GameManager.cs"
 "Assets/Battle Game/Scripts/EnemyUnit.cs"
+"Assets/Battle Game/Scripts/HPBar.cs"
 "Assets/Battle Game/Scripts/MyUnit.cs"
 "Assets/Battle Game/Scripts/Units.cs"
 "Assets/File Management/Scripts/CSVReader.cs"

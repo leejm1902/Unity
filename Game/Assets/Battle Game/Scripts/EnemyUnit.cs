@@ -26,4 +26,15 @@ public class EnemyUnit : Units
             state = State.ATTACK;
         }
     }
+
+    public override void Hit(float damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            state = State.DIE;
+            target.GetComponent<MyUnit>().state = State.RUN;
+        }
+    }
 }
