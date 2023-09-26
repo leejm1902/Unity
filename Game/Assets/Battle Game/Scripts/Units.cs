@@ -9,6 +9,7 @@ public enum State
     DIE
 }
 
+[RequireComponent(typeof(HPBar))]
 [RequireComponent(typeof(Animator))]
 
 public abstract class Units : MonoBehaviour

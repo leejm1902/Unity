@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class MyUnit : Units
 {
-    HPBar hpBar;
+    protected HPBar hpBar;
 
     void Start()
     {
@@ -16,15 +16,14 @@ public class MyUnit : Units
         speed = 1.0f;
 
         maxHP = health;
-
         hpBar = GetComponent<HPBar>();
+
         animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("My Unit Animator");
     }
 
     public void Damage()
     {
         target.GetComponent<EnemyUnit>().Hit(attack);
-        hpBar.CurrentHP(health, maxHP);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,6 +38,8 @@ public class MyUnit : Units
     public override void Hit(float damage)
     {
         health -= damage;
+
+        hpBar.CurrentHP(health, maxHP);
 
         if (health <= 0)
         {

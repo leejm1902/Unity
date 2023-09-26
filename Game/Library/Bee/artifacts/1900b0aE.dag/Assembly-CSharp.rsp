@@ -356,6 +356,7 @@
 "Assets/Battle Game/Scripts/EnemyUnit.cs"
 "Assets/Battle Game/Scripts/HPBar.cs"
 "Assets/Battle Game/Scripts/MyUnit.cs"
+"Assets/Battle Game/Scripts/SceneManagement.cs"
 "Assets/Battle Game/Scripts/Units.cs"
 "Assets/File Management/Scripts/CSVReader.cs"
 "Assets/File Management/Scripts/Manager/SelectManager.cs"
